@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    background-color: #5f7988;
+    color: #333;
+    font-family: 'calibri' sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.btn-quote {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #86a1b1;
+    color: #fff;
+    cursor: pointer;
+}
+
+blockquote {
+    background: #eceff1;
+    color: rgb(80, 79, 79);
+    border-left: 10px solid #5f7988;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
