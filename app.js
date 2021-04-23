@@ -1,3 +1,8 @@
+window.addEventListener('load', function () {
+    const loader = document.querySelector('.loader');
+    loader.className += ' hideLoader';
+});
+
 const quoteBtn = document.querySelector('#quoteBtn');
 const quoteAuthor = document.querySelector('#quoteAuthor');
 const quote = document.querySelector('#quote');
